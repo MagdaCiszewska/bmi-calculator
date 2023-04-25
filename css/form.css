@@ -1,0 +1,42 @@
+.form__heading {
+    text-align: center;
+}
+
+.form__field {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.578);
+    border-radius: 10px;
+    max-width: 200px;
+    width: 100%;
+    font-size: medium;
+}
+
+.form__fieldset {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form__labelText {
+    width: 170px;
+    display: inline-block;
+}
+
+.form__button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsla(138, 87%, 45%, 0.782);
+    border: none; 
+    border-radius: 10px;
+    font-size: large;
+    font-family: "Montserrat", sans-serif;
+}
+
+.form__button:hover {
+    background-color: hsla(138, 87%, 50%, 0.782);
+}
+
+.form__button:active {
+    background-color: hsla(138, 87%, 55%, 0.782);
+}
+
+

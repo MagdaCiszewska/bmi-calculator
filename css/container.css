@@ -1,0 +1,11 @@
+.container {
+    margin: 20px;
+    width: 100%;
+    padding: 20px;
+    flex-basis: 700px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.732);
+    border-radius: 20px;
+    font-size: large;
+    font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator BMI</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/container.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form js-form">
+        <h1 class="form__heading">Kalkulator BMI</h1>
+        <fieldset class="form__fieldset">
+          <legend>Twoje dane</legend>
+          <p class="form__">
+            <label
+              ><span class="form__labelText">Twój wzrost w cm:</span></label
+            >
+            <input
+              class="form__field js-height"
+              type="number"
+              step="any"
+              min="1"
+              required
+            />
+          </p>
+          <p>
+            <label><span class="form__labelText">Twoja waga:</span></label>
+            <input
+              class="form__field js-weight"
+              type="number"
+              required
+              step="any"
+              min="1"
+            />
+          </p>
+        </fieldset>
+        <p>
+          <button class="form__button"><strong>Oblicz</strong></button>
+        </p>
+      </form>
+      <div class="interpretation">
+        <p class="interpretation__text">
+          Twoje BMI wynosi: <strong class="js-result"></strong>
+        </p>
+        <p class="interpretation__text">
+          <span class="js-interpretation"></span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
